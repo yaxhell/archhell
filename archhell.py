@@ -1,5 +1,5 @@
 #!usr/bin/python3
-import requests
+import requests.txt
 from time import sleep
 import os
 #cores
