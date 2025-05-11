@@ -11,6 +11,7 @@ ng='\033[1m'
 f='\033[m'
 lz='\033[34m'   
 mg='\033[1;35m1' 
+pr='\033[90m'
 def ip():  
     n1 = str(input(f'{vm}--={f}{az}[CONSULTA IP]{f}\n\n- {az}[{f}{lz}01{f}{az}]{f} {ng}ipgeolocation{f}\n- {az}[{f}{lz}02{f}{az}]{f} {ng}ip{f}\n- {az}[{f}{lz}03{f}{az}]{f} {ng}ipfind{f}  \n- {am}+=>{f} '))         
     if n1=='1' or n1=='01':
@@ -75,7 +76,7 @@ def ban():
 os.system('clear');
 def menu():
     print(f"""
-{mg}    	
+{vm}    	
  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -89,7 +90,7 @@ def menu():
 ⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀
 ⠀⢀⣾⣿⣿⠿⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠻⠿⣿⣿⣷⡀⠀
 ⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄
-					      	{vd}   			       
+					      	{vm}   			       
  ▄▄▄       ██▀███   ▄████▄   ██░ ██  ██░ ██ ▓█████  ██▓     ██▓    
 ▒████▄    ▓██ ▒ ██▒▒██▀ ▀█  ▓██░ ██▒▓██░ ██▒▓█   ▀ ▓██▒    ▓██▒    
 ▒██  ▀█▄  ▓██ ░▄█ ▒▒▓█    ▄ ▒██▀▀██░▒██▀▀██░▒███   ▒██░    ▒██░    
@@ -102,10 +103,10 @@ def menu():
                 
                      
    	 	       
-- {ng}01 CONSULTAR IP {f}
-- {ng}02 CONSULTAR CEP {f}
-- {ng}03 CONSULTAR CNPJ {f}
-- {ng}04 SAIR{f}
+- {pr}01 CONSULTAR IP {f}
+- {pr}02 CONSULTAR CEP {f}
+- {pr}03 CONSULTAR CNPJ {f}
+- {pr}04 SAIR{f}
     """)
 try:   
     menu()
@@ -113,7 +114,7 @@ try:
 except KeyboardInterrupt:
     exit()
 except:
-    print(f'{vm}- [!] C código incorreto (burro do krlh sabe nem usar um script) {f}')
+    print(f'{am}- [!] C código incorreto (burro do krlh sabe nem usar um script) {f}')
 try:    
     if inpu=='1' or inpu=='01':   
         os.system('clear');ban();ip()
@@ -124,7 +125,7 @@ try:
     elif inpu=='4' or inpu=='04':
         exit()
     else:
-        print(f'{vm}- [!] C código incorreto (burro do krlh sabe nem usar um script!{f}');exit()                                                                                          
+        print(f'{am}- [!] C código incorreto (burro do krlh sabe nem usar um script!{f}');exit()                                                                                          
 except:
     exit()
   
