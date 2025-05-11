@@ -71,35 +71,7 @@ def cnpj():
     br="\n{}[+] CONSULTA REALIZADA PELO PAINEL DE CONSULTA achhell \n[+]by: yaxhell {}\n{}-=[data_situacao]:{}\n-=[motivo_situacao]:{}\n-=[complemento]:{}\n-=[tipo]:{}\n-=[nome]:{}\n-=[telefone]:{}\n-=[situacao]:{}\n-=[bairro]:{}\n-=[logradouro]:{}\n-=[numero]:{}\n-=[cep]:{}\n-=[municipio]:{}\n-=[fantasia]:{}\n-=[porte]:{}\n-=[abertura]:{}\n-=[natureza_juridica]:{}\n-=[uf]:{}\n-=[cnpj]:{}\n-=[ultima_atualizacao]:{}\n-=[status]:{}\n-=[email]:{}\n-=[efr]:{}\n-=[situacao_especial]:{}\n-=[data_situacao_especial]:{}\n-=[atividade_principal]:{}\n-=[atividades_secundarias]:{}\n-=[capital_social]:{}\n-=[qsa]:{}\n-=[extra]:{}\n-=[billing]:{} {}".format(ng,f,vd,req1['data_situacao'],req1['motivo_situacao'],req1['complemento'],req1['tipo'],req1['nome'],req1['telefone'],req1['situacao'],req1['bairro'],req1['logradouro'],req1['numero'],req1['cep'],req1['municipio'],req1['fantasia'],req1['porte'],req1['abertura'],req1['natureza_juridica'],req1['uf'],req1['cnpj'],req1['ultima_atualizacao'],req1['status'],req1['email'],req1['efr'],req1['situacao_especial'],req1['data_situacao_especial'],req1['atividade_principal'],req1['atividades_secundarias'],req1['capital_social'],req1['qsa'],req1['extra'],req1['billing'],f)                  
     print(br)
 def ban():
-    print(f"""
-{vm}    	
-                            ,--.
-                          {    }
-                          K,   }
-                         /  `Y`
-                    _   /   /
-                   {_'-K.__/
-                     `/-.__L._
-                     /  ' /`\_}
-                    /  ' /     -archhell 2010-
-            ____   /  ' /
-     ,-'~~~~    ~~/  ' /_
-   ,'             ``~~~%%',
-  (                     %  Y
- {                      %% I
-{      -                 %  `.
-|       ',                %  )
-|        |   ,..__      __. Y
-|    .,_./  Y ' / ^Y   J   )|
-\           |' /   |   |   ||
- \          L_/    . _ (_,.'(
-  \,   ,      ^^""' / |      )
-    \_  \          /,L]     /
-      '-_`-,       ` `   ./`
-         `-(_            )
-             ^^\..___,.--`
-                        @yaxhell_
-  """)
+    print(f"""@yaxhell_ on instagram""")
 os.system('clear');
 def menu():
     print(f"""
